@@ -4,6 +4,7 @@
   "description": "My shining Nuxt.js project",
   "author": "mayks1",
   "private": true,
+  "main": "server.js",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
