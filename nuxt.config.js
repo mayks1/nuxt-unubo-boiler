@@ -1,3 +1,5 @@
+import path from 'path'
+import fs from 'fs'
 
 export default {
   mode: 'universal',
@@ -52,7 +54,8 @@ export default {
   */
  server: {
     port: process.env.PORT || 3000, // default: 3000
-    host: 'https://nuxt-unubo.unubo.app/' // default: localhost
+   // default: localhost
+   
   },
 
   build: {
